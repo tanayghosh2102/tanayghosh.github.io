@@ -1,0 +1,8 @@
+<footer>
+  <div class="footer-link-container">
+    <div class="footer-link" [ngClass]="{'selected': selectedLink === 'home'}" (click)="manageFooterLinks('home')">Home</div>
+    <div class="footer-link" [ngClass]="{'selected': selectedLink === 'experience'}" (click)="manageFooterLinks('experience')">Experience</div>
+    <!-- <div class="footer-link" [ngClass]="{'selected': selectedLink === 'about'}" (click)="manageFooterLinks('about')">About me</div> -->
+    <!-- <div class="footer-link" [ngClass]="{'selected': selectedLink === 'extra'}" (click)="manageFooterLinks('extra')">Extra</div> -->
+  </div>
+</footer>

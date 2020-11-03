@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css';
+* {
+    font-family: 'Karla', sans-serif;
+}
+html, body {
+    height: 100%;
+}
+body {
+    background-color: #DA291C;
+}
+.container-fluid {
+    overflow-y: hidden; /* don't show content that exceeds my height */
+}
